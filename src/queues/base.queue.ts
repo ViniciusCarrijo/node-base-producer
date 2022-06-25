@@ -1,6 +1,6 @@
 import * as Bull from 'bull';
-import configs from 'src/configs';
-import { Queues } from 'src/enums';
+import configs from '../configs';
+import { Queues } from '../enums';
 
 export default class BaseQueue {
   queue: Bull.Queue;
